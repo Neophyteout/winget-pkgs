@@ -1,15 +1,16 @@
-# Created with Komac v1.6.0
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
 
 PackageIdentifier: Celestia.Celestia
 PackageVersion: 1.6.3
 PackageLocale: en-US
 Publisher: Celestia Development Team
-PublisherUrl: http://celestia.space
+PublisherUrl: https://github.com/CelestiaProject/Celestia
 PublisherSupportUrl: https://github.com/CelestiaProject/Celestia/issues
+# PrivacyUrl:
 Author: Celestia Development Team
 PackageName: Celestia
-PackageUrl: http://celestia.space
+PackageUrl: https://github.com/CelestiaProject/Celestia
 License: GPL-2.0
 LicenseUrl: https://raw.githubusercontent.com/CelestiaProject/Celestia/master/COPYING
 Copyright: Copyright (C) 1989, 1991 Free Software Foundation, Inc.
@@ -20,11 +21,11 @@ Description: |-
   The free space simulation that lets you explore our universe in three dimensions.
 Moniker: celestia
 Tags:
+- astronomy
 - celestia
+- educational
 - foss
 - open-source
-- astronomy
-- educational
 - planetarium
 ReleaseNotes: |-
   Features, backported from 1.7
@@ -40,5 +41,8 @@ ReleaseNotes: |-
   Translations
   - Update Bulgarian translation
 ReleaseNotesUrl: https://github.com/CelestiaProject/Celestia/releases/tag/1.6.3
+# PurchaseUrl:
+# InstallationNotes:
+# Documentations:
 ManifestType: defaultLocale
-ManifestVersion: 1.4.0
+ManifestVersion: 1.9.0

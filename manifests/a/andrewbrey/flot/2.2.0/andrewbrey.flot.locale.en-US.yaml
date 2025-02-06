@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 v2.2.0 using InputObject 🤖 $debug=QUSU.CRLF..7-2-8
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.2.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
 
 PackageIdentifier: andrewbrey.flot
 PackageVersion: 2.2.0
@@ -17,7 +17,8 @@ Copyright: Copyright (c) 2021 Andrew Brey
 CopyrightUrl: https://github.com/andrewbrey/flot/blob/main/LICENSE
 ShortDescription: Keep a website always-on-top and translucent.
 Description: |-
-  Keep a website always-on-top and translucent. For Mac, Windows, and Linux.
+  Keep a website always-on-top and translucent.
+  For Mac, Windows, and Linux.
 
   Top feature: It's simple and works like a charm ❤️
 
@@ -34,11 +35,12 @@ Tags:
 - float
 - foss
 - translucent
-# Agreements:
-# ReleaseNotes:
+ReleaseNotes: |-
+  What's Changed
+  - feat: revamp focus video css by @andrewbrey in #6
 ReleaseNotesUrl: https://github.com/andrewbrey/flot/releases/tag/v2.2.0
 # PurchaseUrl:
 # InstallationNotes:
 # Documentations:
 ManifestType: defaultLocale
-ManifestVersion: 1.2.0
+ManifestVersion: 1.9.0

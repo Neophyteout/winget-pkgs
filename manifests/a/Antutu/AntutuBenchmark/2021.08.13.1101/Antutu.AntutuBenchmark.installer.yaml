@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 v2.2.1 $debug=NVS1.CRLF.7-3-1.Win32NT
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.2.0.schema.json
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-5.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
 
 PackageIdentifier: Antutu.AntutuBenchmark
 PackageVersion: 2021.08.13.1101
@@ -9,11 +9,11 @@ UpgradeBehavior: install
 Dependencies:
   PackageDependencies:
   - PackageIdentifier: Microsoft.VCRedist.2015+.x64
-ReleaseDate: 2021-08-19
+ReleaseDate: 2024-09-06
 Installers:
 - Architecture: x64
-  InstallerUrl: https://file.antutu.com/soft/AntutuBenchmark_Setup.exe
-  InstallerSha256: CB08D4853FD976FA0F00CC215D939DF1952BB6537C5B2450668442CB62593A3C
+  InstallerUrl: https://file.antutu.com/soft2/AntutuBenchmark_x64_Setup.exe?auth_key=b9b54fc59afce60eda0f5d5ec70663d0&expires=2147483647
+  InstallerSha256: D1F0630B5AD4E6421D77A5C8C99665A86D89F604337917ED8B0E18CE47AF54A3
   ProductCode: Antutu Benchmark
 ManifestType: installer
-ManifestVersion: 1.2.0
+ManifestVersion: 1.6.0
