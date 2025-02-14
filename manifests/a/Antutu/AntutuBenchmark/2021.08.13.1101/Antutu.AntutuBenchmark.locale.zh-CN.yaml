@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 v2.2.1 $debug=NVS1.CRLF.7-3-1.Win32NT
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.2.0.schema.json
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-5.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.6.0.schema.json
 
 PackageIdentifier: Antutu.AntutuBenchmark
 PackageVersion: 2021.08.13.1101
@@ -13,7 +13,7 @@ PackageName: 安兔兔评测
 PackageUrl: https://soft.antutu.com/indexpc.html
 License: 免费软件
 LicenseUrl: https://antutu.com/userAgreement.htm
-Copyright: Copyright@2021,Antutu.All rights reserved.
+Copyright: Copyright@2023,Antutu.All rights reserved.
 # CopyrightUrl:
 ShortDescription: 值得信赖的电脑性能评测专家
 # Description:
@@ -25,11 +25,10 @@ Tags:
 - 硬件
 - 评测
 - 跑分
-# Agreements:
 # ReleaseNotes:
 # ReleaseNotesUrl:
 # PurchaseUrl:
 # InstallationNotes:
 # Documentations:
 ManifestType: locale
-ManifestVersion: 1.2.0
+ManifestVersion: 1.6.0
