@@ -1,11 +1,11 @@
-# Created with YamlCreate.ps1 v2.2.2 $debug=QUSU.CRLF.7-3-2.Win32NT
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.4.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.9.0.schema.json
 
 PackageIdentifier: 115.115Chrome
 PackageVersion: 25.0.6.5
 PackageLocale: zh-CN
 Publisher: 广东一一五科技股份有限公司
-PublisherUrl: https://115.com/
+PublisherUrl: https://115.com
 PublisherSupportUrl: https://115.com/115115
 PrivacyUrl: https://115.com/privacy.html
 Author: 广东一一五科技股份有限公司
@@ -32,11 +32,10 @@ Tags:
 - 浏览器
 - 网盘
 - 网页
-# Agreements:
 ReleaseNotes: 修复若干已知问题，产品性能更稳定。
 ReleaseNotesUrl: https://115.com/115/T568136.html
-PurchaseUrl: https://vip.115.com/
+PurchaseUrl: https://vip.115.com
 # InstallationNotes:
 # Documentations:
 ManifestType: locale
-ManifestVersion: 1.4.0
+ManifestVersion: 1.9.0
