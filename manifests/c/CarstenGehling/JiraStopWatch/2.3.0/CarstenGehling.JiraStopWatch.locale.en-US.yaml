@@ -1,4 +1,5 @@
-# Created with Komac v1.6.0
+# Created using WinGet Automation (CLI)
+
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
 
 PackageIdentifier: CarstenGehling.JiraStopWatch
@@ -10,7 +11,7 @@ PublisherSupportUrl: https://github.com/tulleuchen/jirastopwatch/issues
 Author: Carsten Gehling
 PackageName: Jira StopWatch
 PackageUrl: https://github.com/tulleuchen/jirastopwatch
-License: Apache-2.0
+License: APACHE-2.0
 LicenseUrl: https://github.com/tulleuchen/jirastopwatch/blob/master/LICENSE.txt
 Copyright: Copyright (c) 2015 Carsten Gehling
 ShortDescription: Windows desktop application for recording time with Jira.
@@ -19,4 +20,4 @@ ReleaseNotes: |-
   - Changed Jira authentication to use API tokens instead of username/password (big thank you to @bellamatte for this!)
 ReleaseNotesUrl: https://github.com/tulleuchen/jirastopwatch/releases/tag/2.3.0
 ManifestType: defaultLocale
-ManifestVersion: 1.4.0
+ManifestVersion: 1.5.0
